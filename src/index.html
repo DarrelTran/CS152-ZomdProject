@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+
+<html lang = "en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Top-Down Zombie Shooter</title>
+    <!-- Script must wait for DOM to be ready before executing -->
+    <!-- "defer" loads script, but waits until DOM is ready and then executes -->
+    <!-- Can also put at bottom of body tag, but must wait until body is loaded before script executed -->
+    <!-- DOM is "ready" meaning loads and parses everything in the html file -->
+    <!-- BUT main.js tries to manipulate the canvas BEFORE (its in the head tag) everything is loaded (body tag is after head tag), so gives error that canvas is "null" -->
+    <script src = "mandatory.js" defer></script> <!-- above main.js to load before -->
+    <script src = "sprites.js" defer></script>
+    <script src = "background.js" defer></script>
+    <script src = "util.js" defer></script>
+    <script src = "collisionsData.js" defer></script> 
+    <script src = "spawnZoneData.js" defer></script>
+    <script src = "blocks.js" defer></script>
+    <script src = "hitbox.js" defer></script>
+    <script src = "waves.js" defer></script>
+    <script src = "bullet.js" defer></script>
+    <script src = "actors.js" defer></script>
+    <script src = "upgrade.js" defer></script>
+    <script src = "main.js" defer></script> 
+  </head>
+
+  <body>
+    <!-- canvas tag is a container for graphics -->
+    <canvas id = "gameCanvas" width = "512" height = "512"></canvas> 
+  </body>
+</html>
