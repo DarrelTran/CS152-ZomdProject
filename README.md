@@ -3,7 +3,7 @@ Simple top down zombie shooter made for CS-152
 
 Play it here: https://darreltran.itch.io/zomdcs152?secret=IdCJUCWQuq89VYxrsD4lsZ3VbmE
 
-OR download it here, open the "Source" folder, and open index.html 
+OR download it here, open the "src" folder, and open index.html 
 
 Instructions:
 (You may have to disable your adblock for the game to work!) 
